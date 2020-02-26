@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eric Holdridge - Front End Web Developer - Portfolio</title>
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/9808de19ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="w-full absolute top-0 py-4 bg-blue-400">
+        <div class="container">
+            <i class="fa fa-bars text-xl mobileNavIcon cursor-pointer"></i>
+            <ul class="navItems hidden">
+                <li class="my-2"><a href="#home" class="capitalize text-white">home</a></li>
+                <li class="my-2"><a href="#about" class="capitalize text-white">about</a></li>
+                <li class="my-2"><a href="#portfolio" class="capitalize text-white">portfolio</a></li>
+                <li class="my-2"><a href="#contact" class="capitalize text-white">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Home Section -->
+    <div class="w-full" style="background: url('./images/hero.jpeg')" id="home">
+        <div class="container py-56">
+            <h3 class="text-4xl text-white">Hello! I'm <span class="text-blue-400">Eric Holdridge</span>.</h3>
+            <p class="text-white">I'm a front-end web developer.</p>
+            <div class="view-work">
+                <button class="mt-4 px-4 py-2 text-white bg-blue-400 rounded capitalize shadow">view my work</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="w-full" id="about">
+        <div class="heading text-center capitalize py-10">
+            <h1 class="text-2xl">About Me</h1 c>
+        </div>
+        <div class="w-full">
+        <div class="container flex border">
+            <!-- card 1 -->
+            <div class="flex flex-col items-center">
+                <div class="circle h-24 w-24 rounded-full bg-blue-400 flex items-center justify-center">
+                    <i class="fas fa-code text-2xl text-white"></i>
+                </div>
+                <h3 class="capitalize my-2 font-bold">code</h3>
+                <p class="text-center">I enjoy coding ideas from scratch using clean, simple, maintable code that is easy to understand.</p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

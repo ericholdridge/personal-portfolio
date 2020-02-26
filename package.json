@@ -1,0 +1,23 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericholdridge/personal-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericholdridge/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/ericholdridge/personal-portfolio#readme"
+}
